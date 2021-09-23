@@ -29,11 +29,13 @@ configs:
 - branches:
    - name: releases/*
      parameters:
+       dismiss-stale-reviews: true
        require-code-owner-reviews: true
        required-approving-review-count: {{ inputs.Reviewer_Count }}
    
    - name: main
      parameters:
+       dismiss-stale-reviews: true
        require-code-owner-reviews: true
        required-approving-review-count: {{ inputs.Reviewer_Count }}
             
