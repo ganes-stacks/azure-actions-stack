@@ -20,6 +20,7 @@ configs:
 # Meta data for creating the new repository
 - repo-metadata:
     parameters:
+      description: This is a Azure GitHub Action
       topics:
       - Azure
       - Action
