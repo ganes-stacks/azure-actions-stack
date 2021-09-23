@@ -41,8 +41,8 @@ configs:
             
 - security:
     parameters: 
-      vulnerability-alerts: false
-      automated-security-fixes: false
+      vulnerability-alerts: true
+      automated-security-fixes: true
 
 #-------------------------------------------------------------
 # Initialization workflow to run
