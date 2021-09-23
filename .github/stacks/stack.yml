@@ -22,8 +22,8 @@ configs:
     parameters:
       description: This is a Azure GitHub Action
       topics:
-      - Azure
-      - Action
+      - azure
+      - action
 
  # Branch protection rules
 - branches:
